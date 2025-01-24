@@ -77,7 +77,7 @@ async function onSend() {
     .sendMessage(props.channelId, newMessage)
     .then((message) => {
       if (!message) return;
-      message.attachments.forEach((attachment) => {
+      message.attachments?.forEach((attachment) => {
         const fileIndex = messageFiles.findIndex(
           (file) => file.name === attachment.filename,
         );
