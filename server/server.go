@@ -8,7 +8,9 @@ import (
 	"strings"
 
 	"github.com/go-chi/chi/v5"
+	"github.com/jackc/pgx/v5/stdlib"
 	"github.com/joho/godotenv"
+	"github.com/pressly/goose/v3"
 	"github.com/redis/go-redis/v9"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
@@ -36,6 +38,15 @@ func initDatabase() {
 	if err != nil {
 		panic(err)
 	}
+}
+
+func runDatabaseMigrations() {
+	conn := database.GetDatabase()
+	db := stdlib.OpenDBFromPool(conn)
+	if db == nil {
+		panic("Failed to open database connection")
+	}
+	goose.Create(db, "./migrations", "init", "sql")
 }
 
 func initRedis() {

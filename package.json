@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "minichat",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -10,12 +10,6 @@
     "web-type-check": "vue-tsc --build ./web --force",
     "server-dev": "go run ./server --format pretty --port 3001 --host localhost --cdn-url http://localhost:3002",
     "server-build": "go build -o dist/server/server ./server",
-    "minioserve-dev": "go run ./minioserve --format pretty --port 3002 --host localhost",
-    "minioserve-build": "go build -o dist/minioserve/minioserve ./minioserve",
-    "database-clean": "rimraf dist/database",
-    "database-build": "npx tsc -p database",
-    "database-start": "node dist/database/migration.js",
-    "database-dev": "npm run database-clean && npm run database-build && npm run database-start",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts"
   },
   "dependencies": {
