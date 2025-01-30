@@ -4,8 +4,8 @@ github.com/alexflint/go-arg v1.5.1 h1:nBuWUCpuRy0snAG+uIJ6N0UvYxpxA0/ghA/AaHxlT8
 github.com/alexflint/go-arg v1.5.1/go.mod h1:A7vTJzvjoaSTypg4biM5uYNTkJ27SkNTArtYXnlqVO8=
 github.com/alexflint/go-scalar v1.2.0 h1:WR7JPKkeNpnYIOfHRa7ivM21aWAdHD0gEWHCx+WQBRw=
 github.com/alexflint/go-scalar v1.2.0/go.mod h1:LoFvNMqS1CPrMVltza4LvnGKhaSpc3oyLEBUZVhhS2o=
-github.com/auth0/go-auth0 v1.14.0 h1:T/wQGIwXylf1DnrDtDEuo/92YBnRizRcw15zXb+e3k4=
-github.com/auth0/go-auth0 v1.14.0/go.mod h1:PjkjJXvHIbGPJgig9lNjlYrK2lsP5pdh3tM+VV4Dmpc=
+github.com/auth0/go-auth0 v1.15.0 h1:tfwbcUO2QrQfrbVQ0qfDGcB3gPQQlZDJU4D0C9w0+OY=
+github.com/auth0/go-auth0 v1.15.0/go.mod h1:lKOp7ooUxEKPRAZziAfN3km1TH0VYVHkCvTMZsfQCS8=
 github.com/auth0/go-jwt-middleware/v2 v2.2.2 h1:vrvkFZf72r3Qbt45KLjBG3/6Xq2r3NTixWKu2e8de9I=
 github.com/auth0/go-jwt-middleware/v2 v2.2.2/go.mod h1:4vwxpVtu/Kl4c4HskT+gFLjq0dra8F1joxzamrje6J0=
 github.com/aybabtme/iocontrol v0.0.0-20150809002002-ad15bcfc95a0 h1:0NmehRCgyk5rljDQLKUO+cRJCnduDyn11+zGZIc9Z48=

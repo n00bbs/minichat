@@ -4,7 +4,7 @@ go 1.22.4
 
 require (
 	github.com/alexflint/go-arg v1.5.1
-	github.com/auth0/go-auth0 v1.14.0
+	github.com/auth0/go-auth0 v1.15.0
 	github.com/auth0/go-jwt-middleware/v2 v2.2.2
 	github.com/go-chi/chi/v5 v5.2.0
 	github.com/go-chi/cors v1.2.1
