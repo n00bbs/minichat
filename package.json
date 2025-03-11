@@ -24,7 +24,7 @@
     "@primevue/forms": "^4.2.5",
     "@primevue/themes": "^4.2.5",
     "@types/file-saver-es": "^2.0.3",
-    "@vueuse/core": "^12.4.0",
+    "@vueuse/core": "^13.0.0",
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "file-saver-es": "^2.0.5",
